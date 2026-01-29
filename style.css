@@ -296,12 +296,12 @@ html {
 }
 
 #book h2 {
-  font-size: 30px;
+  font-size: clamp(25px, 3vw, 35px);
   margin-bottom: 16px;
 }
 
 #book p {
-  font-size: 16px;
+  font-size: clamp(17px, 2vw, 22px);
   max-width: 480px;
   margin: 0 auto 15px;
   opacity: 0.85;
@@ -343,7 +343,7 @@ html {
 
 .footer-block p {
   margin: 6px 0;
-  font-size: 20px;
+  font-size: clamp(20px, 2vw, 25px);
   color: #cfcfcf;
 }
 
